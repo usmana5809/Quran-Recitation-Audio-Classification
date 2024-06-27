@@ -19,11 +19,10 @@ The Quran Recitation Audio Classification project aims to classify different rec
 
 ### Installation
 1. Clone the repository:
-   ```bash
+ ```bash
    git clone https://github.com/your-username/quran-recitation-audio-classification.git
    cd quran-reInstall dependencies:
 ```
-
 2. Install dependencies:
 ```bash
 pip install -r requirements.txt
@@ -32,27 +31,31 @@ pip install -r requirements.txt
 ## 1.Data Preparation:
 - Ensure your Quran recitation audio files are organized in a structured format.
 - Update config.py or relevant scripts with your dataset paths and configurations.
+  
+## 2.Data Extract:
+- download or extract the data from kaggle website or any other website
+
+## 3.Data Path:
+- Example of configuring dataset paths in config.py
 ```bash
-# Example of configuring dataset paths in config.py
 DATA_PATH = 'path/to/dataset'
 ```
-## 2.Feature Extraction:
-Run feature extraction scripts to preprocess audio data and extract relevant features:
+## 4.Feature Extraction:
+- Run feature extraction scripts to preprocess audio data and extract relevant features:
 ```bash
 python extract_features.py
 ```
-## 3.Model Training:
-Train the classification model using extracted features:
+## 5.Model Training:
+- Train the classification model using extracted features:
 ```bash
 python train_model.py
 ```
-
-##  4.Model Evaluation:
+##  6.Model Evaluation:
 - Evaluate the trained model's performance:
 ```bash
 python evaluate_model.py
 ```
-## 5.Deployment:
+## 7.Deployment:
 Deploy the model for real-time classification (optional).
 
 # Expected Output
@@ -65,7 +68,7 @@ Deploy the model for real-time classification (optional).
 - Commit your changes (git commit -am 'Add new feature').
 - Push to the branch (git push origin feature-branch).
 - Create a new Pull Request.
-- 
+  
 # Contact
 For questions or suggestions, please contact usmanazulfiqar2001@gmail.com.
 
